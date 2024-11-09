@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/hero/navBar.css" />
+    <link rel="stylesheet" href="../css/events.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <title>Programming Club PPI</title>
+    <link rel="stylesheet" href="../css/wrapper.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="../index.html">
+            <img src="../images/logo-1.png" alt="logo" />
+            <span>Programming Club - PPI</span>
+          </a>
+        </div>
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../pages/activities.html">Our Activities</a>
+          </li>
+          <li>
+            <a href="../pages/events.html">Events</a>
+          </li>
+          <li>
+            <a href="../pages/members.html">Members</a>
+          </li>
+          <li>
+            <a href="../pages/gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="../pages/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../pages/activities.html">Our Activities</a>
+        </li>
+        <li>
+          <a href="../pages/events.html">Events</a>
+        </li>
+        <li>
+          <a href="../pages/members.html">Members</a>
+        </li>
+        <li>
+          <a href="../pages/gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="../pages/contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Event section start -->
+
+    <section>
+      <div>
+        <!-- <h1>WE<span class="text-blue-500 font-bold">LC</span>OME</h1>
+      <p class="text-center mb-10">Greeting to the President of the programming club</p> -->
+        <div class="mt-10">
+          <hr />
+          <marquee behavior="" direction="">
+            <p class="text-red-500">
+              Of course, bad code can be cleaned up. But it’s very expensive.” —
+              Robert C. Martin
+            </p>
+            <p class="text-blue-500">
+              Code is like humor. When you has to explain it, it’s bad. – Cory
+              House
+            </p>
+            <p class="text-green-500">
+              It’s not a bug; it’s an undocumented feature. ― Anonymous
+            </p>
+          </marquee>
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex mx-20 -mt-20 shadow-sm">
+        <div class="w-[650px] p-10 shadow-2xl mr-10">
+          <h1>Club start</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, illo?
+            Recusandae voluptatibus, iusto labore corporis alias, cupiditate,
+            aspernatur impedit est nam beatae in quibusdam consequuntur ab
+            officia. Magni, voluptatibus deleniti?
+          </p>
+        </div>
+        <div class="wrapper"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex mx-20 mt-20 shadow-sm">
+        <div class="project">
+          <img
+            class="w-[500px]"
+            src="../images/project-1/IMG_20240131_125745 (1).jpg"
+            alt=""
+          />
+        </div>
+        <div class="w-[650px] p-10 shadow-2xl mr-10">
+          <h1>Project Class-1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, illo?
+            Recusandae voluptatibus, iusto labore corporis alias, cupiditate,
+            aspernatur impedit est nam beatae in quibusdam consequuntur ab
+            officia. Magni, voluptatibus deleniti?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-3/4 mx-auto shadow-lg h-40 border mt-32 flex justify-around hover:bg-gray-200 ease-in-out duration-1000"
+    >
+      <div class="mt-10 ml-12">
+        <!-- Open the modal using ID.showModal() method -->
+        <button class="btn" onclick="my_modal_5.showModal()">
+          Greeting to the President
+        </button>
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+          <div class="modal-box">
+            <img src="../images/project-1/IMG_20240131_130006 (1).jpg" alt="" />
+            <h3 class="text-lg font-bold">
+              Greeting to the President of the programming club
+            </h3>
+            <p class="py-4">
+              Greeting to the President of the programming club... Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Consequuntur itaque
+              officia, veniam dolorum aliquam obcaecati nemo! Dignissimos
+              tenetur molestias quam.
+            </p>
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+
+      <div class="mt-10 ml-12">
+        <!-- Open the modal using ID.showModal() method -->
+        <button class="btn" onclick="welcome.showModal()">Help Desk PPI</button>
+        <dialog id="welcome" class="modal modal-bottom sm:modal-middle">
+          <div class="modal-box">
+            <img src="../images/project-1/hd.jpg" alt="" />
+            <h3 class="text-lg font-bold">Help Desk organize</h3>
+            <p class="py-4">
+              A help box is a designated area on a website or application where
+              users can access support or guidance. It often contains
+              information, tips, FAQs, or links to additional resources. Help
+              boxes improve user experience by offering quick solutions,
+              clarifying doubts, and assisting users in navigating features
+              effectively.
+            </p>
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+      <div class="mt-10 ml-12">
+        <!-- Open the modal using ID.showModal() method -->
+        <button class="btn" onclick="onlineseminer.showModal()">
+          Online Seminar P.Club
+        </button>
+        <dialog id="onlineseminer" class="modal modal-bottom sm:modal-middle">
+          <div class="modal-box">
+            <img src="../images/project-1/online seminar 72X36.jpg" alt="" />
+            <h3 class="text-lg font-bold">Online Seminar</h3>
+            <p class="py-4">
+              An online seminar is a virtual event where experts present
+              information or discuss specific topics to an online audience.
+              Participants can interact through chat or Q&A sessions. Online
+              seminars are popular for learning, networking, and professional
+              development, offering convenience and flexibility to attend from
+              anywhere with an internet connection.
+            </p>
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+    </section>
+
+    <!-- Event section end -->
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./activities.html">Our Activities</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./members.html">Members</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Programming Club - PPI. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="../javaScript/navBar.js"></script>
+  </body>
+</html>
